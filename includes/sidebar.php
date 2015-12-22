@@ -15,6 +15,9 @@
 			<div class="column-widget" id="twocolumn-widget" draggable=true>
 				Two Column
 			</div>
+			<div class="column-widget" id="threecolumn-widget" draggable=true>
+				Three Column
+			</div>
 		</div>
 		<div class="tab-content" id="content-div" style="display:none">
 			<div class="twocol">

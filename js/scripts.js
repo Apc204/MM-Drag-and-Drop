@@ -50,6 +50,17 @@ $(document).ready(function(){
 		   console.log(dragContent);
 		}, 'html');
 	}
+	// Drag three column
+	var twocolumn = document.getElementById('threecolumn-widget');
+	twocolumn.addEventListener('dragstart', threecolumnDragStart, false);
+	function threecolumnDragStart(e){
+		dragSrcEl = this;
+		dragType = 'column';
+		$.get("email-components/three-column.html", function( my_var ) {
+		   dragContent = my_var;
+		   console.log(dragContent);
+		}, 'html');
+	}
 	
 
 	/*********************************************
