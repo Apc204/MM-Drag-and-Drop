@@ -1,0 +1,90 @@
+/* ##### EMAIL PREVIEW BASE CSS ##### */
+.email-preview body {
+Margin: 0;
+    padding: 0;
+    min-width: 100%;
+    background-color: #ffffff;
+}
+.email-preview table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333333;
+}
+.email-preview td {
+    padding: 0;
+}
+.email-preview img {
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+.email-preview .wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.email-preview .webkit {
+    max-width: 600px;
+}
+.email-preview .outer {
+    Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+.email-preview .contents td {
+    padding: 10px;
+}
+/*One column layout*/
+.email-preview .one-column .contents {
+    text-align: left;
+}
+/*Two column layout*/
+.email-preview .two-column {
+    text-align: center;
+    font-size: 0;
+}
+.email-preview .two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.email-preview .contents {
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+}
+
+.email-preview .two-column img {
+}
+.email-preview .two-column .text {
+    padding-top: 10px;
+}
+/*Three column layout*/
+.email-preview .three-column {
+    text-align: center;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.email-preview .three-column .column {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.email-preview .three-column .contents {
+    font-size: 14px;
+    text-align: left;
+}
+.email-preview .three-column img {
+    max-width: 180px;
+}
+.email-preview .three-column .text {
+    padding-top: 10px;
+}
+
+@media(){
+    
+}
